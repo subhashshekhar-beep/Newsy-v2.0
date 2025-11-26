@@ -1,0 +1,28 @@
+# Newsy - Meme Image Generator Requirements
+# All dependencies for complete standalone system
+
+# Backend
+flask==3.0.0
+flask-cors==4.0.0
+requests==2.31.0
+python-dotenv==1.0.0
+anthropic==0.25.4
+gunicorn==21.2.0
+
+# Frontend (Streamlit)
+streamlit==1.28.1
+
+# Image Generation (LOCAL - NO API NEEDED)
+pillow==10.1.0
+Pillow-SIMD==9.0.0.post1
+
+# Data Processing
+numpy==1.24.3
+
+# Utilities
+python-magic==0.4.27
+
+# Development (Optional)
+pytest==7.4.3
+black==23.12.0
+flake8==6.1.0
